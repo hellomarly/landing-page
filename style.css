@@ -1,0 +1,56 @@
+body {
+    background-color:#ECDFCD;
+}
+.header { 
+    display:flex;
+}
+img{
+    height:300px;
+    width:100%;
+    object-fit:cover;
+}
+h1 {
+    color:#4D2821;
+    margin:20px;
+}
+
+.menu{
+    position:fixed;
+    right:0;
+    margin:20px;
+    font-size:28px;
+}
+a {
+    text-decoration:none;
+    color:#4D2821;
+}
+.menu a{
+    padding: 5px;;
+}
+.menu a:hover {
+    background-color:#4D2821;
+    color:#ECDFCD
+}
+.menu li {
+    display:inline-block;
+    margin-right:10px;
+}
+.menu ul{
+    margin:0px;
+    display: flex;
+}
+
+.menu-coffee{
+    background-color:#FFFBF5;
+    display: flex;
+    justify-content: center;
+}
+.menu-coffee div{
+    flex: 1;
+    padding-left: 2%;
+}
+.menu-coffee ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
